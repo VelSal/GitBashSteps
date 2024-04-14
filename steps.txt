@@ -1,0 +1,17 @@
+On the Github website:
+- Create new repository on Github website.
+
+On the computer:
+- Right click on the folder where the code is and choose "Git Bash Here".
+
+On Git Bash:
+- Initialize local repository: $ git init 
+- Verify: $ git status
+- Add to the local repository: $ git add .
+- Commit the changes: $ git commit -m "theMessageOfTheCommit"
+- Get the main branch: $ git branch -M main
+- Copy/Paste the following line from Github website: $ git remote add origin https://...
+- Push the changes: $ git push -u origin main
+
+On the Github website:
+- Refresh the Github window and see if it worked.
